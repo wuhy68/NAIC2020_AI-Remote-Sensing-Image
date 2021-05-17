@@ -65,7 +65,7 @@ Our experiment found that the training of the remote sensing data set is difficu
 
 ## Test
 
-We provide the test script `run.sh`, download the optimal [model file]() from the release page of github and place it in the `data` directory, and then execute the following command
+We provide the test script `run.sh`, download the optimal [model file](https://github.com/wuhy68/NAIC2020_AI-Remote-Sensing-Image/releases/download/v1/iter_304000.pth) from the release page of github and place it in the `data` directory, and then execute the following command
 
 ```bash
 ./run.sh test data/iter_304000.pth out_1018.pkl 
